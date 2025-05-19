@@ -1,0 +1,15 @@
+-456 - inteiro
+false - booleano
+“0.87” - string
+1.67 - decimal
+“Casa 8” - string
+0 - inteiro
+1000 - inteiro 
+true - booleano
+“-900” - string
+3 - inteiro
+0.0 - decimal
+-3.1415 - decimal
+32150 - inteiro
+128288 - inteiro
+“false” - string
