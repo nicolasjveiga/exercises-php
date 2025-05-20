@@ -9,7 +9,7 @@ while ($n != 0){
     $media += $n; 
     $i++;
 }
-echo "Somatória: " . $media . "\n";
+echo "Somatória: $media \n";
 $media = $media / $i;
-echo "Média: " . $media . "\n";
-echo "Quantidade de valores lidos: " . $i . "\n";
+echo "Média: $media \n";
+echo "Quantidade de valores lidos: $i \n";

@@ -12,6 +12,6 @@ for($i = 50; $i <= 70;$i++){
 }
 
 $media = $soma / $j;
-echo "A soma é: " . $soma . "\n";
-echo "A média é: " . $media . "\n";
+echo "A soma é: $soma \n";
+echo "A média é: $media \n";
 

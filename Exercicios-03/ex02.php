@@ -8,4 +8,4 @@ for($i = 1; $i <= 10; $i++){
     $media = $media + $n;
 }
 $media = $media / 10;
-echo "A média é: " . $media . "\n";
+echo "A média é: $media \n";
