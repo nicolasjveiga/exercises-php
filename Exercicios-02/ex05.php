@@ -1,9 +1,9 @@
 <?php
 
-$ano = 2008;
+$ano = (int) readline("Digite seu ano de nascimento: ");
 $idade = 2025 - $ano;
 
-echo "Você tem " . $idade . " anos.\n";
+echo "Você tem $idade anos.\n";
 
 if ($idade >= 16) {
     echo "Você é já pode votar.\n";

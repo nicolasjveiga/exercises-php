@@ -1,11 +1,9 @@
 <?php
 
-echo "Digite um número: ";
-
-$valor = fgets(STDIN);
+$valor =(int) readline("Digite um valor: ");
 
 if($valor > 0) {
-    echo "O valor é positivo";
+    echo "O valor é positivo \n";
 } else {
-    echo "O valor é negativo";
+    echo "O valor é negativo \n";
 }

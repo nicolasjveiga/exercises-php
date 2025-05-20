@@ -1,6 +1,5 @@
 <?php
 
-// Lê os quatro números
 $n1 = (int) readline("Digite o 1º número: ");
 $n2 = (int) readline("Digite o 2º número: ");
 $n3 = (int) readline("Digite o 3º número: ");
