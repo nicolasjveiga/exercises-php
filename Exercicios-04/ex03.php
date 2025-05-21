@@ -10,4 +10,4 @@ for($i = 0;$i < 10; $i++){
         $index = $i;
     }
 }
-echo $maior . "\n" . $index . "\n";
+echo "$maior \n $index \n";

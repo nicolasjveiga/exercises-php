@@ -10,7 +10,10 @@ if($horas > 40) {
     $salarioTotal = ($salarioHora * 40) + $horaExtra * ($salarioHora * 1.5);
 } elseif($horas < 40){
     $salarioTotal = $salarioHora * $horas;
-    $salarioTotal -= $salarioTotal * 0.05;
+    $salarioTotal -= ($salarioTotal * 0.05);
+} else {
+    $salarioTotal = $horas * $salarioHora;
 }
 
-echo $salarioTotal;
+
+echo "$salarioTotal \n";

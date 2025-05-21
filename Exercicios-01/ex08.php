@@ -1,8 +1,8 @@
 <?php
 
-$salarioFixo = 1000;
-$valorVendas = 10000;
-$numeroVendas = 10;
+$salarioFixo = (int) readline("Digite o salario fixo: ");
+$valorVendas = (int) readline("Digite o valor das vendas: ");
+$numeroVendas = (int) readline("Digite o número de vendas: ");
 $comissao = 0.05;
 
 $salarioComComissao = $salarioFixo + ($valorVendas * $comissao) + ($numeroVendas * 50);

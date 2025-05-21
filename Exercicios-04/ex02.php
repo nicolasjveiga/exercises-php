@@ -19,8 +19,8 @@ for($i = 0; count($vetor) < 10; $i++){
         $impares++;
     }
 }
-echo $pares . " Pares" . "\n";
-echo $impares .  " Impares" ."\n";
-echo $negativos . " Negativos" . "\n";
-echo $positivos . " Positivos" . "\n";
+echo "$pares Pares \n";
+echo "$impares Impares \n";
+echo "$negativos Negativos \n";
+echo "$positivos Positivos \n";
 

@@ -1,7 +1,7 @@
 <?php
 
-$salario = 1000;
-$kWgasto = 200;
+$salario = (int) readline("Digite o valor do salário mínimo: ");
+$kWgasto = (int) readline("Digite o kW consumido: ");
 
 $valor100kw = $salario / 7;
 

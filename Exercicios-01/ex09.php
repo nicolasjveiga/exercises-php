@@ -1,7 +1,7 @@
 <?php
 
-$hora = 20;
-$minuto = 30;
+$hora = (int) readline("Digite a hora: ");
+$minuto = (int) readline("Digite os minutos: ");
 
 $minutosTotais = ($hora * 60) + $minuto;
-echo "A quantidade total de minutos é: " . $minutosTotais . "\n";
+echo "A quantidade total de minutos é: $minutosTotais \n";

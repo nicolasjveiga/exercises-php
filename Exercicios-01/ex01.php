@@ -1,9 +1,10 @@
 <?php
 
-$dividendo = 10;
-$divisor = 2;
+$dividendo = (int) readline ("Digite o dividendo: ");
+$divisor = (int) readline ("Digite o divisor: ");
 
 $quociente = $dividendo / $divisor;
 $resto = $dividendo % $divisor;
 
-echo "quociente: " . $quociente . "\n" . "resto: " . $resto ;
+echo "Quociente: $quociente \n" ;
+echo "Resto : $resto \n";
