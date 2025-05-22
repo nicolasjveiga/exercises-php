@@ -1,14 +1,19 @@
 <?php
 
-$i = 1;
+$nota1 = 0;
+$nota2 = 0;
+$media = 0;
 
-while ($i = 1){
+while(true){
 
-    $condicao = (int) readline("NOVO CÁLCULO(S/N)");
-    if($condicao == "S"){
-        $i = 1;
-    } elseif($condicao == "N"){
-        $i = 0;
+    $nota1 = (int) readline("Digite a primeira nota: ");
+    $nota2 = (int) readline("Digite a segunda nota: ");
+    $media = ($nota1 + $nota2) / 2;
+    echo "$media \n";
+    
+    $condicao = (int) readline("NOVO CÁLCULO(S/N)? ");
+    if($condicao != "S"){
+        break;
     }
 
 }
